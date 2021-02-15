@@ -9,6 +9,9 @@ namespace HW._04.Task1
             Add();
         }
 
+        /// <summary>
+        /// Method for adding two numbers, checking for the entered value
+        /// </summary>
         public static void Add()
         {
             double firstNumber, secondNumber;
