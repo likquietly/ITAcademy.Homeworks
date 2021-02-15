@@ -6,14 +6,6 @@ namespace HW._04.Task1
     {
         static void Main(string[] args)
         {
-            Add();
-        }
-
-        /// <summary>
-        /// Method for adding two numbers, checking for the entered value and result
-        /// </summary>
-        public static void Add()
-        {
             double firstNumber, secondNumber;
 
             Console.Write("Enter the first number: ");
@@ -28,6 +20,14 @@ namespace HW._04.Task1
                 Console.Write("You entered an invalid second value, please, try again: ");
             }
 
+            Add(firstNumber, secondNumber);
+        }
+
+        /// <summary>
+        /// Method for adding two numbers, checking for the entered value and result
+        /// </summary>
+        public static void Add(double firstNumber, double secondNumber)
+        {
             Console.Write("Enter the calculation result: ");
             double result = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(result == firstNumber + secondNumber ? "correct" : "incorrect");

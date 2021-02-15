@@ -6,16 +6,7 @@ namespace HW._04.Task1
     {
         static void Main(string[] args)
         {
-            Add();
-        }
-
-        /// <summary>
-        /// Method for adding or subtracting two numbers, checking for the entered value and result
-        /// </summary>
-        public static void Add()
-        {
             double firstNumber, secondNumber;
-            double trueResult = 0;
             char userOperator;
 
             Console.Write("Enter the first number: ");
@@ -35,6 +26,16 @@ namespace HW._04.Task1
             {
                 Console.Write("You entered an invalid operator, please, try again: ");
             }
+
+            FuncAddSub(firstNumber, secondNumber, userOperator);
+        }
+
+        /// <summary>
+        /// Method for adding or subtracting two numbers, checking for the entered value and result
+        /// </summary>
+        public static void FuncAddSub(double firstNumber, double secondNumber, char userOperator)
+        {
+            double trueResult = 0;
 
             switch (userOperator)
             {
