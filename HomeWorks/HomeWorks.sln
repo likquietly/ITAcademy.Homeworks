@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.03.Calculator", "HW.03.Calculator\HW.03.Calculator.csproj", "{31B638E8-2614-46F0-A791-C0CB9ABADCF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.03.Calculator.Static", "HW.03.Calculator.Static\HW.03.Calculator.Static.csproj", "{750D0062-7B48-41CA-9AB1-BCD62C8B6EF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.03.Calculator.Static", "HW.03.Calculator.Static\HW.03.Calculator.Static.csproj", "{750D0062-7B48-41CA-9AB1-BCD62C8B6EF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.03.Birthday", "HW.03.Birthday\HW.03.Birthday.csproj", "{B7886A7A-1C05-47BA-8E99-3991BCBE1AC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.03.Birthday", "HW.03.Birthday\HW.03.Birthday.csproj", "{B7886A7A-1C05-47BA-8E99-3991BCBE1AC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HW.03", "HW.03", "{985ADA9E-6106-4D22-965D-93F3244A6A72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HW.04", "HW.04", "{F14EE373-CD27-448B-B920-8612FB463BA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31B638E8-2614-46F0-A791-C0CB9ABADCF1} = {985ADA9E-6106-4D22-965D-93F3244A6A72}
+		{750D0062-7B48-41CA-9AB1-BCD62C8B6EF5} = {985ADA9E-6106-4D22-965D-93F3244A6A72}
+		{B7886A7A-1C05-47BA-8E99-3991BCBE1AC8} = {985ADA9E-6106-4D22-965D-93F3244A6A72}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C7BD1C3-97D6-4B73-A42B-64A0C805031B}
