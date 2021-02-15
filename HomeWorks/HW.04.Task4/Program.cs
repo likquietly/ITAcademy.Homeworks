@@ -22,7 +22,7 @@ namespace HW._04.Task1
             }
 
             Console.Write("Enter operator(+ or -): ");
-            while (!Char.TryParse(Console.ReadLine(), out userOperator))
+            while (!Char.TryParse(Console.ReadLine(), out userOperator) || (userOperator != '+' && userOperator != '-'))
             {
                 Console.Write("You entered an invalid operator, please, try again: ");
             }
