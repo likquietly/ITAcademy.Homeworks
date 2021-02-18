@@ -6,10 +6,11 @@ namespace HW._05.Task4
     {
         static void Main(string[] args)
         {
-            string lettersCount = Console.ReadLine();
             int count = 0;
 
             Console.WriteLine("Enter the text:");
+            string lettersCount = Console.ReadLine();
+
             foreach (var item in lettersCount)
             {
                 //it's 'a' and 'A' of Latin and Cyrillic!
