@@ -10,7 +10,7 @@ namespace HW._05.Task1
             uint finalSumm = 0;
 
             Console.Write("Enter a positive number: ");
-            while(!UInt32.TryParse(Console.ReadLine(), out userNumber))
+            while (!UInt32.TryParse(Console.ReadLine(), out userNumber))
             {
                 Console.WriteLine("You entered the wrong number, please, try again: ");
             }
