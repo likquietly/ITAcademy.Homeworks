@@ -13,8 +13,8 @@ namespace HW._05.Task4
 
             foreach (var item in lettersCount)
             {
-                //it's 'a' and 'A' of Latin and Cyrillic!
-                if (item == 'a' || item == 'A' || item == 'а' || item == 'А')
+                //it's 'A' and 'a' of Latin and 'А' and 'а' of Cyrillic respectively
+                if (item == '\u0041' || item == '\u0061' || item == '\u0410' || item == '\u0430')
                 {
                     count++;
                 }
