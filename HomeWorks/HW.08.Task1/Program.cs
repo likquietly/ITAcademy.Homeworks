@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 
 namespace HW._08.Task1
 {
@@ -24,7 +25,7 @@ namespace HW._08.Task1
                 }
             }
 
-            System.Console.WriteLine("String operation result: \n" + sb.ToString());
+            Console.WriteLine("String operation result: \n" + sb.ToString());
         }
     }
 }
