@@ -13,7 +13,7 @@ namespace HW._07.Task2
             AmountSym(text);
             string[] sortArr = SortMeth(text);
 
-            Console.WriteLine($"Text with the largest word removed:\n{removeWord}");
+            Console.WriteLine("Text with the largest word removed:\n" + removeWord);
             Console.WriteLine("Swap the longest word with the shortest:\n" + swapWordStr);
             Console.WriteLine("Sorted string array:\n" + string.Join(' ', sortArr));
         }

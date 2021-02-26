@@ -6,7 +6,7 @@ namespace HW._07.Task3
     {
         static void Main(string[] args)
         {
-            string text = "gdfgdf234dg54gf/23oP42";
+            string text = "gdfgdf234dg54gf*23oP42";
 
             string numbTemp = string.Empty;
             double number1 = 0.0;
