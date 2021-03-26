@@ -11,7 +11,7 @@ namespace HW._13.Task1
 
             song.SetSongData();
 
-            dynamic anon = song.GetSongData(song);
+            var anon = song.GetSongData(song);
             Console.WriteLine(anon);
 
             string json = JsonSerializer.Serialize(anon);
